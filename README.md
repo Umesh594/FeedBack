@@ -76,7 +76,7 @@
 -  nodemon server.js
 
   # Frontend Setup
-- cd ../frontend
+- cd frontend
 - npm install
   # Run Frontend
 - npm run dev
