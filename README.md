@@ -67,19 +67,19 @@
   # Backend Setup
 - cd backend
 - npm install
--  Create .env file in server with  
+-  Create .env file in backend with  
 -  MONGO_URI=your own mongodb connection string
 -  JWT_SECRET=your own jwt secret key
 -  PORT=your own port number
 -  ADMIN_CODE=your own admin code
   # Run Backend
-- npm run dev
+-  nodemon server.js
 
   # Frontend Setup
 - cd ../frontend
 - npm install
   # Run Frontend
-- npm start
+- npm run dev
 
   # Live Project
 
