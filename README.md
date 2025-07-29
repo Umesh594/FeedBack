@@ -11,7 +11,7 @@
 - View responses in:
   - Tabular format
   - Summary view
-- Logout to clear session
+- Export as CSV file
 
  # User
 - Access feedback form via public URL
@@ -68,20 +68,20 @@
 - cd backend
 - npm install
 -  Create .env file in server with  
-  MONGO_URI=your own mongodb connection string
-  JWT_SECRET=your own jwt secret key
-  PORT=5000
-  ADMIN_CODE=your own admin code
+-  MONGO_URI=your own mongodb connection string
+-  JWT_SECRET=your own jwt secret key
+-  PORT=5000
+-  ADMIN_CODE=your own admin code
   # Run Backend
 - npm run dev
 
   # Frontend Setup
 - cd ../frontend
-  npm install
+- npm install
   # Run Frontend
 - npm start
 
   # Live Project
 
 - Deployed on Vercel (Frontend) and Railway (Backend)
-  Live Link : https://feed-back-brown.vercel.app/
+- Live Link : https://feed-back-brown.vercel.app/
