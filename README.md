@@ -70,7 +70,7 @@
 -  Create .env file in server with  
 -  MONGO_URI=your own mongodb connection string
 -  JWT_SECRET=your own jwt secret key
--  PORT=5000
+-  PORT=your own port number
 -  ADMIN_CODE=your own admin code
   # Run Backend
 - npm run dev
