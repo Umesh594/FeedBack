@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://feedback-production-8685.up.railway.app/api"; // Replace with your deployed URL when needed
+const BASE_URL = "https://feedback-ekwt.onrender.com/api"; // Replace with your deployed URL when needed
 
 export const api = {
   // AUTH
